@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/chemcompounds
+# catalog-date 2007-03-05 14:17:42 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-chemcompounds
 Version:	20070305
 Release:	1
@@ -46,6 +52,7 @@ of compounds inside the text.
 #- source
 %doc %{_texmfdistdir}/source/latex/chemcompounds/chemcompounds.dtx
 %doc %{_texmfdistdir}/source/latex/chemcompounds/chemcompounds.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ of compounds inside the text.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
