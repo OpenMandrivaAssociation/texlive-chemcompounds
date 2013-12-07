@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-chemcompounds
 Version:	20070305
-Release:	4
+Release:	5
 Summary:	Simple consecutive numbering of chemical compounds
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemcompounds
