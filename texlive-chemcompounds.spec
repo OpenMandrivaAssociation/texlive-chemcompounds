@@ -1,6 +1,6 @@
 Name:		texlive-chemcompounds
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Simple consecutive numbering of chemical compounds
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chemcompounds
